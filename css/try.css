@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   font-family: "Comic Sans MS", cursive, sans-serif;
   color: #2d3c49;
   width: 100%;
@@ -58,20 +59,20 @@ Below 600px styles normal flex-fluid enhancements
 	}
 
 	.colors {
-		width: 33.3%
+		width: 33.3%;
 	}
 
 	.color_sample_height {
 		height: 40px;
 	}
 
-	.h6_colr_margin {
+	.colr_margin {
 		margin-top: 0;
 		text-align: center;
 		margin-bottom: 10px;
 	}
 
-	.h2_feature_head {
+	.feature_heading {
 		margin-bottom: 0;
 	}
 
@@ -137,13 +138,12 @@ Above 550px
 }
 
 /*
-Above 550px
+Above 1100px
 */
 
 @media screen and (min-width: 1100px) {
 	.main_section {
 		width: 750px;
-		margin-left: auto;
-		margin-right: auto;
+		margin: 0 auto;
 	}
 }
